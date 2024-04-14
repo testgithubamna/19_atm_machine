@@ -1,6 +1,6 @@
 {
   "name": "amna_atm_cli-atm-machine",
-  "version": "2.0.6",
+  "version": "2.0.1",
   "description": "\"This is cli based atm machine\"",
   "main": "index.js",
   "type": "module",

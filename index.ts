@@ -10,7 +10,7 @@ const atm = await inquirer.prompt(
 
 },)
 
-if (atm.pincode=myPin){  
+if (atm.pincode==myPin){  
     console.log(`Your pincode is correct!!!`)
 const operatorAns= await inquirer.prompt(
     {
@@ -29,7 +29,6 @@ if(operatorAns.operation==="check balance"){
            type:"number",
            name:"amount"
         }
-
     )
     let balance = myBalance-amountAns.amount
     if (amountAns.amount<=myBalance){

@@ -6,7 +6,7 @@ const atm = await inquirer.prompt({ message: "Enter your pincode",
     type: "number",
     name: "pincode"
 });
-if (atm.pincode = myPin) {
+if (atm.pincode == myPin) {
     console.log(`Your pincode is correct!!!`);
     const operatorAns = await inquirer.prompt({
         message: "Please select the operation",
