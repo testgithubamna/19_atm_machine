@@ -1,9 +1,10 @@
 {
   "name": "amna_atm_cli-atm-machine",
-  "version": "1.0.5",
+  "version": "2.0.6",
   "description": "\"This is cli based atm machine\"",
   "main": "index.js",
   "type": "module",
+  "bin": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
